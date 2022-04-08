@@ -1,0 +1,32 @@
+
+.card-container {
+    width: 100%;
+}
+
+img {
+    border: 0;
+}
+
+.card {
+    width: 100%;
+    outline: 1px solid red;
+}
+
+@media (min-width: 660px) {
+    .card {
+        width: 50%;
+    }
+}
+
+
+@media (min-width: 800px) {
+    .card {
+        width: 33.33%;
+    }
+}
+
+@media (min-width: 1272px) {
+    .card {
+        width: 25%;
+    }
+}

@@ -1,0 +1,36 @@
+/*
+    <div class="aspect-ratio-wrapper">
+        <div class="aspect-ratio-box">
+            <div class="aspect-ratio-box-inside">
+                <img src="img/hero.jpg" class="max-img" alt="image title" />
+            </div>
+        </div>
+    </div>
+*/
+
+
+.max-img {
+    max-width: 100%;
+    height: auto;
+}
+
+.aspect-ratio-wrapper {
+    position: relative;
+    box-sizing: border-box;
+    outline: 1px solid blue;
+}
+
+.aspect-ratio-box {
+    padding-top: 50%;
+}
+
+.aspect-ratio-box-inside {
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%) translateY(-50%);
+}
+

@@ -1,0 +1,37 @@
+html, body {
+    overflow-x: hidden;
+}
+body {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.max-img {
+    max-width: 100%;
+    height: auto;
+}
+
+main {
+    max-width: 1430px;
+    margin: 0 auto;
+}
+
+
+.flex-wrap {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+
+
+
+
+
