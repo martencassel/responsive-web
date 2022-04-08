@@ -9,7 +9,6 @@ img {
 
 .card {
     width: 100%;
-    outline: 1px solid red;
 }
 
 @media (min-width: 660px) {

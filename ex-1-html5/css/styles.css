@@ -2,6 +2,8 @@ html, body {
     overflow-x: hidden;
 }
 body {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     line-height: 1.5;
 }
@@ -10,6 +12,7 @@ body {
     display: flex;
     flex-direction: column;
     height: 100vh;
+    background-color: #fdfdfe;
 }
 
 .max-img {
@@ -29,9 +32,39 @@ main {
     flex-wrap: wrap;
 }
 
+.placeholder {
+    background-color: rgb(52,72,187);
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+
+.parent {
+    display: flex;
+    justify-content: space-between;
+}
+
+.empty {
+    flex-grow: 1;
+}
+
+.card-content {
+    padding: 24px 16px;
+    background-color: #fff;
+}
 
 
+.card-content-price {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.5;
+    margin-bottom: 16px;
+}
 
-
+.card {
+    box-shadow: 0 16px 64px -16px rgb(46 55 77 / 10%);
+}
 
 

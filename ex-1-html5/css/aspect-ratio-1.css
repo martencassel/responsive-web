@@ -17,7 +17,6 @@
 .aspect-ratio-wrapper {
     position: relative;
     box-sizing: border-box;
-    outline: 1px solid blue;
 }
 
 .aspect-ratio-box {

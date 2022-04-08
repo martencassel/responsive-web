@@ -4,14 +4,16 @@
 <head>
     <meta charset="utf-8" />
     <title>Eventbrite</title>
-    <meta name="description" content="A basic responsive web page –
-an example from Chapter 1" />
+    <meta name="description" content="A basic responsive web page an example from Chapter 1" />
     <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/aspect-ratio-2.css" />
     <link rel="stylesheet" href="css/styles.css" />
     <style>
-        body {
+        .wrapper {
             width: 100%;
             max-width: 1600px;
             margin: 0 auto;
@@ -47,67 +49,112 @@ an example from Chapter 1" />
             }
         }
 
-        .flex-wrap {
-            outline: 1px solid blue;
-        }
-
         .wrapper {
             width: 100%;
-            outline: 1px solid red;
         }
 
+        header {
+            height: 60px;
+            background-color: rgb(22, 64, 142);
+            width: 100%;
+        }
 
+        .muted {
+            color: rgb(54, 52, 51)
+        }
 
     </style>
 </head>
 <body>
-    <div class="flex-wrap">
-        <div class="card">
-            <div class="aspect-ratio">
-                <img class="aspect-wrapper max-img" src="img/hero.jpg" alt="Hero image">
-            </div>
-        </div>
-        <div class="card">
-            <div class="aspect-ratio">
-                <img class="aspect-wrapper max-img" src="img/card.png" alt="Hero image">
-            </div>
-        </div>
-        <div class="card">
-            <div class="aspect-ratio">
-                <img class="aspect-wrapper max-img" src="img/hero.jpg" alt="Hero image">
-            </div>
-        </div>
-        <div class="card">
-            <div class="aspect-ratio">
-                <img class="aspect-wrapper max-img" src="img/card.png" alt="Hero image">
-            </div>
-        </div>
-        <div class="card">
-            <div class="aspect-ratio">
-                <img class="aspect-wrapper max-img" src="img/hero.jpg" alt="Hero image">
-            </div>
-        </div>
-        <div class="card">
-            <div class="aspect-ratio">
-                <img class="aspect-wrapper max-img" src="img/card.png" alt="Hero image">
-            </div>
-        </div>
-        <div class="card">
-            <div class="aspect-ratio">
-                <img class="aspect-wrapper max-img" src="img/hero.jpg" alt="Hero image">
-            </div>
-        </div>
-        <div class="card">
-            <div class="aspect-ratio">
-                <img class="aspect-wrapper max-img" src="img/hero.jpg" alt="Hero image">
-            </div>
-        </div>
+    <div style="height: 40px"></div>
+    <main class="wrapper">
+        <div class="flex-wrap">
+            <div class="card">
+                <aside>
+                    <div class="aspect-ratio">
+                            <div class="placeholder"></div>
+                            <img class="aspect-wrapper max-img" src="img/hero.jpg" alt="Hero image">
+                    </div>
+                </aside>
+                <div class="card-content">
+                    <div class="parent">
+                        <div class="left">
+                            <p class="card-content-title muted">Tires</p>
+                            <div class="empty"></div>
+                            <p class="card-content-price">35 dollar</p>
+                        </div>
+                        <div class="right">
+                            <p>Today 12:30</p>
+                        </div>
 
-    </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <aside>
+                    <div class="aspect-ratio">
+                            <div class="placeholder"></div>
+                            <img class="aspect-wrapper max-img" src="img/hero.jpg" alt="Hero image">
+                    </div>
+                </aside>
+                <div class="card-content">
+                    <div class="parent">
+                        <div class="left">
+                            <p class="card-content-title muted">Tires</p>
+                            <div class="empty"></div>
+                            <p class="card-content-price">35 dollar</p>
+                        </div>
+                        <div class="right">
+                            <p>Today 12:30</p>
+                        </div>
 
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <aside>
+                    <div class="aspect-ratio">
+                            <div class="placeholder"></div>
+                            <img class="aspect-wrapper max-img" src="img/hero.jpg" alt="Hero image">
+                    </div>
+                </aside>
+                <div class="card-content">
+                    <div class="parent">
+                        <div class="left">
+                            <p class="card-content-title muted">Tires</p>
+                            <div class="empty"></div>
+                            <p class="card-content-price">35 dollar</p>
+                        </div>
+                        <div class="right">
+                            <p>Today 12:30</p>
+                        </div>
 
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <aside>
+                    <div class="aspect-ratio">
+                            <div class="placeholder"></div>
+                            <img class="aspect-wrapper max-img" src="img/hero.jpg" alt="Hero image">
+                    </div>
+                </aside>
+                <div class="card-content">
+                    <div class="parent">
+                        <div class="left">
+                            <p class="card-content-title muted">Tires</p>
+                            <div class="empty"></div>
+                            <p class="card-content-price">35 dollar</p>
+                        </div>
+                        <div class="right">
+                            <p>Today 12:30</p>
+                        </div>
 
+                    </div>
+                </div>
+            </div>
 
+        </div>
 
     </main>
 </body>
